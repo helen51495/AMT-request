@@ -4,7 +4,7 @@ from boto.mturk.question import ExternalQuestion
 
 ######  CONFIGURATION PARAMETRS  ######
 
-SANDBOX = True  # Select whether to post to the sandbox (using fake money), or live MTurk site (using REAL money)
+SANDBOX = False  # Select whether to post to the sandbox (using fake money), or live MTurk site (using REAL money)
 HIT_URL = "https://helen51495.github.io/emsu-project2/"  # Provide the URL that you want workers to sent sent to complete you task
 
 NUMBER_OF_HITS = 1  # Number of different HITs posted for this task
