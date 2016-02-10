@@ -26,10 +26,10 @@
   <div class="row">
     <div class="small-7 columns">
       <h2>Count the People in the Pictures!</h2>
-      <p>Please provide a count of the people in each of these images. Only count those who are showing any part of their face and body in a recognizable manner. Keep in mind not to double count reflections or accidentally include animals in your count. Please be as accurate as possible since a bonus will be assigned based on the accuracy of your answers.</p>
+      <p>Imagine the people in these images are people in your life. Please provide a count of the people in each of these images based on whether or not you can recognize them. Keep in mind not to double count reflections or accidentally include animals in your count. Please be as accurate as possible since your payment will be based on accuracy.</p>
 
       <!-- START FORM -->
-      <form method="post">
+      <form id="mturk_form" method="post">
         <fieldset>
           <legend>People Counter</legend> 
           </br>    
@@ -197,10 +197,11 @@
         </div>
        	</br>
 
+        <!-- the final image will serve as a check to ensure workers are providing actual results instead of spam -->
        	<!-- IMAGE -->
         <div class="row">
         	<div class="large-12 columns">
-        		<img src="img/people7.jpg"/>
+        		<img src="img/qualitycheck.jpg"/>
         	</div>
         </div>
         </br>
